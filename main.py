@@ -62,7 +62,24 @@ class ListaCircular:
         - Continuar hasta que quede uno solo
         - Retornar el valor del nodo sobreviviente
         """
-        pass
+        current = self.head
+        previous = None
+
+        while current.next!= null and head.current!= null:
+            for i in range :m-1
+            current = current
+            current = current.next
+            eliminate = current.data
+
+            if head = null:
+                current = current.next
+                previous.next = current.next
+                current.next = previous
+            if eliminate % 5 == 0:
+                previous = current
+                current = current.next
+            return current    
+
 
 
 # ============================================================
@@ -132,7 +149,22 @@ class ListaSimple:
         - No usar listas, arreglos, pilas, etc.
         - Solo usar referencias (.next)
         """
-        pass
+        slow = self.head
+        fast = self.head
+        prev = None
+        while fast.next = None and fast.next.next = null:
+            prev = slow
+            slow = slow.next
+            fast = fast.next.next
+        Intercalar = Slow.next
+        slow.next = None
+        current = slow.next
+        prev = None
+        while current != null:
+            next_node = current.next
+            current.next = prev
+            prev = current
+            current = next
 
 
 # ============================================================
